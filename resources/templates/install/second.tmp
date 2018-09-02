@@ -1,0 +1,12 @@
+<h1>Installation, Page Two</h1>
+
+[@result]
+
+<div class="alert info">
+    It's all finished! Now, just because there might have been some errors, doesn't mean
+    the installer didn't do what it needed to do. You can reuse this page of the installer
+    to fix a broken database, since it will not overwrite any existing tables of the same
+    names or data within any tables.
+</div>
+
+<a class="button red" href="install.php?page=3">Continue</a>

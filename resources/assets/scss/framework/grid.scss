@@ -1,0 +1,15 @@
+$max-cols: 12;
+
+.grid {
+    display: grid;
+
+    @for $num from 1 through $max-cols {
+        &.has-#{$num}-columns {
+            grid-template-columns: repeat($num, 1fr);
+        }
+    }
+
+    &.gap { grid-gap: 0.5rem; }
+    &.medium-gap { grid-gap: 1rem; }
+    &.large-gap { grid-gap: 2rem; }
+}

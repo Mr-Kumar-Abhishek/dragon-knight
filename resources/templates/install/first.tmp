@@ -1,0 +1,36 @@
+<h1>Installation, Page One</h1>
+
+<div class="alert info">
+    <b>Please note</b>, you must update the Database class in resources/classes/database.php to use
+    your MySQL server's login information, as well as the name of the database you will use. This
+    installer will create tables and put in data, but the database has to already exist.
+</div>
+
+<p>
+    Installation for Dragon Knight is a simple two-step process: set up the database tables, then create 
+    the admin user. After that, you're done.
+</p>
+
+<p>
+    You have two options for database setup: complete or partial.
+</p>
+
+<ul>
+    <li>
+        <b>Complete Setup</b> includes table structure and all default data 
+        (items, drops, monsters, levels, spells, towns) - after complete setup, 
+        the game is totally ready to run.
+    </li>
+    <li>
+        <b>Partial Setup</b> only creates the table structure, it does not populate 
+        the tables - use this if you are going to be creating and importing your own 
+        customized game data later.
+    </li>
+</ul>
+
+<p>
+    Click the appropriate button below for your preferred installation method.
+</p>
+
+<a class="button red" href="install.php?page=2&complete=true">Complete Setup</a>
+<a class="button" href="install.php?page=2">Partial Setup</a>

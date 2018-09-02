@@ -1,0 +1,39 @@
+.input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    justify-content: flex-start;
+    line-height: 1;
+    position: relative;
+    vertical-align: top;
+
+    border-color: #ccc;
+
+    &:focus,
+    &:active {
+        outline: none;
+        border-color: #999;
+        box-shadow: 0 0 0 0.125em rgba(#999, 0.25);
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+    }
+
+    &::placeholder {
+        color: rgba(black, 0.2);
+    }
+}
+
+.form-group {
+    margin-bottom: 1rem;
+
+    &.level {
+        display: flex;
+        align-items: center;
+    }
+}

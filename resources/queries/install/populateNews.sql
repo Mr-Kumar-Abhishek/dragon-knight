@@ -1,0 +1,1 @@
+INSERT INTO `{{{table}}}` VALUES (1, 'First Post', 'This is the first news post. Please use the admin control panel to add another one and make this one go away.', '2004-01-01 12:00:00');

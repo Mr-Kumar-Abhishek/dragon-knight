@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dragon Knight Installation</title>
+
+    <link rel="stylesheet" href="resources/assets/css/install.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="resources/assets/img/logos/red-black.png"/>
+        [@content]
+    </div>
+</body>
+</html>

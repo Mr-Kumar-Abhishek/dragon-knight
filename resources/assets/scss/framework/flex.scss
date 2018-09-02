@@ -1,0 +1,35 @@
+$max-splits: 12;
+
+$gutter: 0.5rem;
+$gutter-medium: 1rem;
+$gutter-large: 2rem;
+
+.flex {
+    display: flex;
+    overflow-wrap: normal;
+
+    .box {
+        flex: 1;
+
+        @for $num from 1 through $max-splits {
+            &.is-#{$num} {
+                flex: 0 0 percentage(1 / $num);
+            }
+        }
+
+        &.fill { flex: 1 1 auto; }
+        &.fit { flex: 0 0 auto; }
+    }
+
+    &.has-gutters .box:not(:last-of-type) { margin-right: $gutter; }
+    &.has-medium-gutters .box:not(:last-of-type) { margin-right: $gutter-medium; }
+    &.has-large-gutters .box:not(:last-of-type) { margin-right: $gutter-large; }
+
+    &.inline         { display: inline-flex;           }
+    &.columned       { flex-direction: column;         }
+    &.space-between  { justify-content: space-between; }
+    &.space-around   { justify-content: space-around;  }
+    &.justify-center { justify-content: center;        }
+    &.align-start    { align-items: flex-start;        }
+    &.align-end      { align-items: flex-end;          }
+}
