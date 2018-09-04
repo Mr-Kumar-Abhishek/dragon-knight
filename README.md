@@ -1,4 +1,4 @@
-# Dragon Knight
+# [[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 - See also: [Dragon Scourge](https://github.com/renderse7en/dragon-scourge)
 - [Live Demo](http://dragon.se7enet.com/)
 
