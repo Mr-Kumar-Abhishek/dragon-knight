@@ -1,4 +1,4 @@
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+<h1><img src="https://github.com/splashsky/dragon-knight/blob/master/resources/assets/img/logos/red-black.png" alt="Dragon Knight" width="50%"></h1>
 - See also: [Dragon Scourge](https://github.com/renderse7en/dragon-scourge)
 - [Live Demo](http://dragon.se7enet.com/)
 
