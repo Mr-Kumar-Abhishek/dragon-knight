@@ -1,28 +1,23 @@
-# Dragon Knight
-- See also: [Dragon Scourge](https://github.com/renderse7en/dragon-scourge)
-- [Live Demo](http://dragon.se7enet.com/)
+<h1>
+    <img src="https://github.com/splashsky/dragon-knight/blob/master/resources/assets/img/logos/red-black.png" alt="Dragon Knight" width="50%">
+</h1>
+- See @renderse7en's other project, [Dragon Scourge](https://github.com/renderse7en/dragon-scourge)!
+- @Renderse7en hosts a [live demo](http://dragon.se7enet.com/) on his site. Check it out!
+- Also, see the [original repo](https://github.com/renderse7en/dragon-knight) here on GitHub!
 
-Many years ago, when I was young and dumb, I wrote a simple little game based on the game *Dragon Warrior* for the NES. It was fun, it helped me learn how to code, and a lot of people liked it.
-I am now turning it over to the open source community. Fork it, do what you want, make it your own.
-Couple things to keep in mind though:
-- It's super old. It may not even work on modern versions of PHP. It may have security issues. I have no idea.
-- I have moved on with my life, and am no longer changing or doing anything with this game.
-- I am not providing help or support. You're on your own.
-- I am not accepting pull requests. If you fork this, you are welcome to do whatever you want, but no changes will be merged back into this.
-- Quite frankly, I don't really suggest that you use this as is. It's probably better as an inspiration for your own project. 
-- Have fun with this. I gave it a lot of love a long time ago. I hope it inspires you to give something a lot of love as well.
-- This Git repo represents the final released version, 1.1.11, originally released 3/26/2006.
+@Renderse7en, also known as Jamin Blount, had created an epic text-based RPG written in PHP. It was really early on in my self-learning that I found this old project, and used it to learn a lot of what I know today. In my love for PHP and my respect for @renderse7en's work, I've decided to fork the original repo - last updated 2 years ago - and evolve it with the knowledge of PHP I have today. No frameworks, no third-party scripts or classes; it's all new, fresh code.
 
-# System Requirements
-- PHP (4.1 and higher)
-- MySQL
-- zlib compression enabled on your server (optional)
+# Requirements
+- A decent text/code editor (we recommend [Visual Studio Code](https://github.com/Microsoft/vscode))
+- PHP (5.4 and higher)
+- a MySQL server (we recommend [MariaDB](https://mariadb.com))
+- a web server, obviously. We can recommend using your computer or a Raspberry Pi and configuring it to serve via nginx. Otherwise, look at [DigitalOcean](https://www.digitalocean.com).
 
-# Installation Instructions
+# Installation
 1. Clone this repo or download the zip.
 2. Create a new database for Dragon Knight to use, if you don't already have one set up.
-3. Edit `config.php` to include the correct values for your database setup.
+3. Edit 'resources/classes/database.php' to have the correct info for your database.
 4. Upload the contents of the Dragon Knight folder to your site.
-5. In your browser, run `install.php` and follow the instructions.
-6. After completing installation, delete `install.php` from your Dragon Knight directory for security.
-7. Enjoy the game.
+5. In your browser, run 'install.php' and follow the instructions.
+6. After completing installation, delete 'install.php' from your Dragon Knight directory for security.
+7. Enjoy the game!
