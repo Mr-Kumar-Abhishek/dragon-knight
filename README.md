@@ -1,4 +1,4 @@
-![Dragon Knight](https://github.com/splashsky/dragon-knight/blob/master/resources/assets/img/logos/red-black.png)
+![Dragon Knight](https://github.com/splashsky/dragon-knight/blob/master/resources/assets/img/logos/red-black.png | width=50)
 Renderse7en, also known as Jamin Blount, had created an epic text-based RPG written in PHP. It was really early on in my self-learning that I found this old project, and used it to learn a lot of what I know today. In my love for PHP and my respect for renderse7en's work, I've decided to fork the original repo - last updated 2 years ago - and evolve it with the knowledge of PHP I have today. No frameworks, no third-party scripts or classes; it's all new, fresh code.
 
 * See renderse7en's other project, [Dragon Scourge](https://github.com/renderse7en/dragon-scourge)!
