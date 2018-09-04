@@ -7,13 +7,13 @@
 - @Renderse7en hosts a [live demo](http://dragon.se7enet.com/) on his site. Check it out!
 - Also, see the [original repo](https://github.com/renderse7en/dragon-knight) here on GitHub!
 
-# Requirements
+## Requirements
 - A decent text/code editor (we recommend [Visual Studio Code](https://github.com/Microsoft/vscode))
 - PHP (5.4 and higher)
 - a MySQL server (we recommend [MariaDB](https://mariadb.com))
 - a web server, obviously. We can recommend using your computer or a Raspberry Pi and configuring it to serve via nginx. Otherwise, look at [DigitalOcean](https://www.digitalocean.com).
 
-# Installation
+## Installation
 1. Clone this repo or download the zip.
 2. Create a new database for Dragon Knight to use, if you don't already have one set up.
 3. Edit 'resources/classes/database.php' to have the correct info for your database.
